@@ -173,7 +173,7 @@
 | 参数名称         | 参数说明     |     长度 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | userFlag         |      用户标识   |     40        |       true      | string   |      |
-| merchantCode         |      商户编号   |     40        |       true      | string   |      |
+| merchantCode         |      商户编号（由GOW给出）   |     40        |       true      | string   |      |
 | timestamp         |      请求接口时刻的当前时间戳(毫秒)   |     13        |       true      | long   |      |
 
 
