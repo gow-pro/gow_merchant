@@ -35,7 +35,7 @@
    {
        "userFlag":"0897564",
        "merchantCode":"000021",
-       "timestamp":"1595214402990"
+       "timestamp":1595214402990
    }
    ```
 
