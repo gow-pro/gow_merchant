@@ -16,6 +16,8 @@
 
 * sign：签名信息
 * context：使用 RSA 加密后的业务信息
+* merchantCode：商户编号
+* timestamp：请求接口时刻的当前时间戳(毫秒) 
 
 
 ## 安全认证
@@ -33,9 +35,7 @@
 商户按照相关接口将请求参数封装成json字符串contextPlain：
  ```
    {
-       "userFlag":"0897564",
-       "merchantCode":"000021",
-       "timestamp":1595214402990
+       "userFlag":"0897564"
    }
    ```
 
@@ -96,7 +96,9 @@
 ```
 {
        "sign": "XXXXXX",
-       "context": "XXXXXX"
+       "context": "XXXXXX",
+       "merchantCode":"000050",
+       "timestamp":1595174400000
    }
    ```
 
@@ -173,8 +175,6 @@ http://120.77.209.81:26020
 | 参数名称         | 参数说明     |     长度 |  是否必须      |  数据类型   |  schema  |
 | ------------ | -------------------------------- |-----------|--------|----|--- |
 | userFlag         |      用户标识   |     40        |       true      | string   |      |
-| merchantCode         |      商户编号   |     40        |       true      | string   |      |
-| timestamp         |      请求接口时刻的当前时间戳(毫秒)   |     13        |       true      | long   |      |
 
 
 
