@@ -156,7 +156,7 @@
 
 ## 用户注册，获取充值信息
 
-**接口地址** `/api/v1/merchant/user/register.do`
+**接口地址** `/openapi/v1/merchant/user/register`
 
 
 **请求方式** `POST`
