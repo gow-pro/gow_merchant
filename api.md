@@ -210,6 +210,7 @@
 | userCode         |     用户code(用户名)      |  string   |      |
 | rechargeAddr         |     充币地址      |  string   |      |
 | initPassword         |     初始密码      |  string   |      |
+| thirdId         |     商户用户标识      |  string   |      |
 
             
 
