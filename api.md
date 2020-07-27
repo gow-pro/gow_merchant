@@ -97,8 +97,7 @@
 {
        "sign": "XXXXXX",
        "context": "XXXXXX",
-       "merchantCode":"000050",
-       "timestamp":"1595174400000"
+       "merchantCode":"000050"
    }
    ```
 
