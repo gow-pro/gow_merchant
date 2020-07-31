@@ -263,7 +263,7 @@
 **接口地址** 
 
 * 测试地址：http://120.77.209.81:26020
-* 生成地址：http://otcinvest.gowph.com
+* 生产地址：http://otcinvest.gowph.com
 
 **请求方式** `GET`
 
