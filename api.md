@@ -244,7 +244,9 @@
 | merchantCode     |  商户编号   |     40        |       true      | string   |      |
 | serialNumber     |  流水记录编号   |     40        |       true      | string   |      |
 | interfaceCode    |  接口编码   |     6        |       true      | string   |      |
-| rechargeAmt      |  充值到账金额|     10       |       true      | double   |      |
+| rechargeAmt      |  充值到账金额（单位：人民币）|     10       |       true      | double   |      |
+| settlementFunds  |  实际结算资金数量|     20       |      true      | decimal   |      |
+| settlementUnit  |   实际结算资金单位 |     10       |      true      | string   |      |
 | timestamp        |  请求接口时刻的当前时间戳(毫秒)   |     13        |       true      | long   |      |
 
 
