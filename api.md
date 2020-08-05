@@ -247,6 +247,8 @@
 | rechargeAmt      |  充值到账金额（单位：人民币）|     10       |       true      | double   |      |
 | settlementFunds  |  实际结算资金数量|     20       |      true      | decimal   |      |
 | settlementUnit  |   实际结算资金单位 |     10       |      true      | string   |      |
+| withdrawalAmt    |  实际提币数量      |     20       |      true      | decimal   |      |
+| price            |  提币币种折算成人民币价格|  10  |       true      | double   |      |
 | timestamp        |  请求接口时刻的当前时间戳(毫秒)   |     13        |       true      | long   |      |
 
 
